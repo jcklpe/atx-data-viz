@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Frontend Test</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/styles.cbb799b3.css">
+    <script src="/styles.cbb799b3.js"></script><link rel="stylesheet" href="/js.d818e0ef.css"></head>
+
+
+    <body>
+        <!--// Navigation-->
+        <nav class="header-navbar navbar-expand-md navbar
+      navbar-with-menu navbar-without-dd-arrow fixed-top navbar-light
+      navbar-shadow navbar-brand-center">
+            <div class="navbar-wrapper">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav flex-row">
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="/index.html">
+
+                                <h3 class="brand-text">
+                                    City of Austin Dockless Transportation
+                                </h3>
+                            </a>
+                        </li>
+                        <li class="nav-item d-md-none"><a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <!--// BEGIN: Content-->
+        <div class="app-content content override">
+            <div class="content-wrapper">
+                <div class="content-header row mb-1">
+                </div>
+                <div class="content-body">
+                    <!-- Revenue, Hit Rate & Deals -->
+                    <div class="row">
+                        <div class="col-xl-8 col-12">
+                            <div class="card" style="height: 100%;">
+                                <div class="card-header">
+
+                                    <h4 class="card-title">Weekly Report</h4>
+                                    <a class="heading-elements-toggle">
+                                        <i class="la la-ellipsis-v font-medium-3"></i></a>
+                                    <div class="heading-elements">
+                                        <ul class="list-inline mb-0">
+                                            <li>
+                                                <a data-action="reload">
+                                                    <i class="ft-rotate-cw">
+                                                    </i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-content collapse show">
+                                    <div class="card-body pt-0" "="">
+                                        <div class=" row mb-1">
+                                        <div class="col-6 col-md-4">
+
+                                            <h5>Bicycles</h5>
+
+                                            <h2 id="bike-total" class="danger"></h2>
+                                        </div>
+                                        <div class="col-6 col-md-4">
+
+                                            <h5>Scooters</h5>
+
+                                            <h2 id="scooter-total" class="text-muted"></h2>
+                                        </div>
+                                    </div>
+                                    <div class="chartjs">
+                                        <canvas id="weeklyRidesChart" width="400" style="position: absolute;"></canvas>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-12">
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="card pull-up">
+                                    <div class="card-header bg-hexagons">
+
+                                        <h4 class="card-title">Weekly share</h4>
+                                        <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                                        <div class="heading-elements">
+                                            <ul class="list-inline mb-0">
+                                                <li><a data-action="reload"><i class="ft-rotate-cw"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-content collapse show bg-hexagons">
+                                        <div class="card-body pt-0">
+                                            <div class="chartjs">
+                                                <canvas id="hit-rate-doughnut" height="275">
+                                                </canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-12">
+                                <div class="card pull-up">
+                                    <div class="card-content">
+                                        <div class="card-body">
+                                            <div class="media d-flex">
+                                                <div class="media-body text-left">
+                                                    <h6 class="text-muted">Value earned
+                                                    </h6>
+
+                                                    <h3>$ 88,568</h3>
+                                                </div>
+                                                <div class="align-self-center">
+                                                    <i class="icon-trophy success font-large-2 float-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/ Revenue, Hit Rate & Deals -->
+                <!--// THIS IS THE END  OF WHAT I HAVE WORKED ON -->
+            </div>
+            <!--//   END OF CONTENT BODY      -->
+        </div>
+        </div>
+        <!-- END: Content-->
+        <div class="sidenav-overlay">
+        </div>
+        <div class="drag-target">
+        </div>
+        <!-- BEGIN: Footer-->
+        <footer class="footer footer-static
+            footer-light navbar-border
+            navbar-shadow override">
+            <p class="clearfix blue-grey lighten-2
+                   text-sm-center mb-0 px-2">
+                <span class="float-md-left d-block
+                         d-md-inline-block">
+                    For your consideration
+                    <a class="text-bold-800 grey darken-2" href="https://www.jackalope.tech" target="_blank">David Aslan
+                        French
+                    </a>
+                </span>
+                <span class="float-md-right d-none d-lg-block">
+                    Hand-crafted & made with
+                    <i class="ft-heart pink"></i>
+                    <span id="scroll-top">
+                    </span>
+                </span>
+            </p>
+        </footer>
+        <!-- END: Footer-->
+        <div id="rides">
+        </div>
+    </body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script type="text/javascript" src="/js.d818e0ef.js"></script>
+
+</html>

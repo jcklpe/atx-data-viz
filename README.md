@@ -1,2 +1,4 @@
-# atx-dev-challenge
-Hey hope this provides a good idea of what I can offer the team. I tried to use this as a good learning opportunity to teach myself more esNext type stuff. I also left lots of notes in the code to help show my thought process.
+# ATX Data Viz
+This is a project that started as a dev test for the City of Austin but has grown into a personal project to sharpen my web development skills.
+
+This app is built using the parcel bundler. To run the app just run `npm install` and then `npm run dev`.

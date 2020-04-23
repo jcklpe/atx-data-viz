@@ -9,20 +9,22 @@ The build system is gulp4. It's basically just a way to bundle/transpile all the
 You set the location of the local server for browsersync using the `localDevURL` in the gulpfile.
 
 ### Basic File Structure
-- assets
-  - src/ (these are the files you edit)
-    - styles.scss (main scss file.)
-    - general-styles/ (general site wide styles and utilities)
-    - components/ (any new styles you write for individual UI parts go in here)
-  - build/ (these are the files that gulp spits out)
-  - vendor/ (any third party libs/frameworks etc go in here)
-- index.html (the main file that runs the app)
+- **assets**
+  - **src/** (these are the files you edit)
+    - **styles.scss** (main scss file.)
+    - **general-styles/** (general site wide styles and utilities)
+    - **components/** (any new styles you write for individual UI parts go in here)
+  - **build/** (these are the files that gulp spits out)
+  - **vendor/** (any third party libs/frameworks etc go in here)
+- **index.html** (the main file that runs the app)
 
 ### Build Commands
 
-**`npm run scss`:** compiles scss
-**`npm run js`:** compiles js
-**`npm run dev`:** compiles scss/js and then runs a gulp watch on their source folders, rebuilding every time there is an update, and triggering a browsersync refresh.
+`npm run scss`: compiles scss
+
+`npm run js`: compiles js
+
+`npm run dev`: compiles scss/js and then runs a gulp watch on their source folders, rebuilding every time there is an update, and triggering a browsersync refresh.
 
 
 
